@@ -68,7 +68,7 @@ export default function Home() {
         </div>
         <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
           <a
-            href="https://news.papafeiji.cn/homes/mobile-app"
+            href="https://news.papafeiji.cn/"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-4f331b hover:bg-af8f65 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
             rel="noopener noreferrer"
@@ -80,7 +80,7 @@ export default function Home() {
               </span>
             </h2>
             <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-              从微信小程序、AppStore 与安卓应用商店下载
+              从微信小程序、AppStore与安卓应用商店下载
             </p>
           </a>
           <a
