@@ -29,7 +29,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col">
       <div className='lg:flex pt-[40px] pr-[40px] hidden justify-end items-center'>
         {isLogin ? (<> <div onClick={download} className='text-[#fff] w-[108px] h-[48px] flex justify-center items-center bg-[#B58D5E] rounded-[24px] cursor-pointer'>下载日记</div>
-          <div onClick={logout} className='text-[#543116] ml-[38px] size-[20px] cursor-pointer'>退出登录</div></>) : <Link href={'/login'} className='text-[#fff] w-[108px] h-[48px] flex justify-center items-center bg-[#B58D5E] rounded-[24px] cursor-pointer'>登录</Link>}
+          <div onClick={logout} className='text-[#543116] ml-[38px] size-[20px] cursor-pointer'>退出登录</div></>) : <Link href={'/login.html'} className='text-[#fff] w-[108px] h-[48px] flex justify-center items-center bg-[#B58D5E] rounded-[24px] cursor-pointer'>登录</Link>}
 
       </div>
       <div className='flex-1 flex flex-col items-center justify-between p-24 lg:pt-8'>
